@@ -1,0 +1,32 @@
+# React / Node
+node_modules/
+dist/
+build/
+
+# Environment Variables
+.env
+.env.local
+
+# Logs
+*.log
+
+# VS Code
+.vscode/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# FastAPI
+.pytest_cache/
+
+# Coverage
+coverage/
+htmlcov/
