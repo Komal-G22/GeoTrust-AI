@@ -1,15 +1,24 @@
-function MapCard() {
+import MapView from "../map/MapView";
+import MapLegend from "../map/MapLegend";
+
+export default function MapCard({
+  selectedEvent,
+  setSelectedEvent,
+}) {
   return (
-    <div className="bg-slate-900 rounded-xl h-96 p-6">
-      <h2 className="text-xl font-semibold mb-4">
-        Map Preview
+    <div className="bg-[#111827] rounded-xl shadow-lg p-5">
+      <h2 className="text-xl font-semibold text-white mb-4">
+        🌍 Geospatial Map
       </h2>
 
-      <div className="flex items-center justify-center h-full text-slate-400">
-        🌍 Interactive Leaflet Map Coming Soon
+      <div className="relative h-[500px] overflow-hidden rounded-xl">
+        <MapView
+          selectedEvent={selectedEvent}
+          setSelectedEvent={setSelectedEvent}
+        />
+
+        <MapLegend />
       </div>
     </div>
   );
 }
-
-export default MapCard;
