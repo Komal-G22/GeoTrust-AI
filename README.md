@@ -3,7 +3,6 @@
 > **AI Framework for Reliable Geospatial Intelligence**
 
 [![Status](https://img.shields.io/badge/Status-Under%20Development-blue)]()
-[![Hackathon](https://img.shields.io/badge/Hackathon-Emerging%20Technologies%202026-success)]()
 [![License](https://img.shields.io/badge/License-Academic-lightgrey)]()
 
 ---
